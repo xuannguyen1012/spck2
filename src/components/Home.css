@@ -1,0 +1,138 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #068338;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-size: 20px;
+}
+
+.nav button {
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.nav a {
+  color: #2d2d2d;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+
+.nav span {
+  color: #2d2d2d;
+  cursor: pointer;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.product-card {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  height: 200px; 
+}
+
+.product-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.image-container:hover img {
+  background-color: #e0e0e0;
+}
+
+.product-name {
+  font-weight: bold;
+  margin: 10px 0 5px;
+  transition: color 0.3s ease;
+}
+
+.product-card:hover .product-name {
+  color: #068338;
+}
+
+.product-price {
+  color: #f57224;
+}
+
+.old-price {
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+.add-to-cart {
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.image-container:hover .add-to-cart {
+  opacity: 1;
+}
+
+.add-to-cart:hover {
+  background-color: #f57224;
+}
+
+.view-all-container {
+  margin-top: 20px;
+}
+
+.view-all {
+  background-color: #068338;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 20px 60px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.nav button:hover {
+  background-color: red; /* Change the color as per your design preference */
+}

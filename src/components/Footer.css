@@ -1,0 +1,90 @@
+.footer {
+  background-color: black;
+  color: gray;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.newsletter {
+  background-color: #f7941d;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  top: -20px;
+}
+
+.newsletter h2 {
+  margin-bottom: 10px;
+}
+
+.newsletter-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.newsletter-input input {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.newsletter-input button {
+  padding: 10px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 20px;
+  min-width: 50px;
+  max-width: 200px;
+  text-align: left;
+}
+
+.footer-section h2 {
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section .contact p {
+  margin: 10px 0;
+}
+
+.footer-section .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-section .social-icons a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-section .social-icons a:hover {
+  color: #f7941d;
+}

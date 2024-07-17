@@ -1,0 +1,104 @@
+.checkout-container {
+  padding: 20px 150px;
+}
+
+.checkout-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shipping-info {
+  width: 60%;
+}
+
+.shipping-info form {
+  display: flex;
+  flex-direction: column;
+}
+
+.shipping-info input,
+.shipping-info select,
+.shipping-info textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.order-summary {
+  width: 35%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.order-summary h2 {
+  margin-bottom: 20px;
+}
+
+.order-items {
+  margin-bottom: 20px;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.order-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.total-amount p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount-code {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.discount-code input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.place-order-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #068338;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.place-order-button:hover {
+  background-color: #056b2a;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-controls button {
+  background-color: #068338;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.quantity-controls button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
